@@ -9,8 +9,10 @@ import java.util.List;
  */
 public class test {
     public static void main(String[] args) {
-        int[] value = new int[]{1, 3, 5, 7, 4, 1, 5, 4, 1, 10};
-        Arrays.sort(value);
+
+        String text = "02184-5415461";
+        System.out.println(text.matches("^\\d.*\\d$"));
+
 
     }
 
@@ -20,5 +22,7 @@ public class test {
 
         return null;
     }
+
+
 
 }
